@@ -41,5 +41,8 @@ $(function () {
   // TODO: Add code to display the current date in the header of the page.
 });
 
+//Time function on top of page centered
 let todaysDate = dayjs();
-$("#currentDay").text(todaysDate.format("dddd, MM/DD/YYYY"));
+setInterval (function() {
+  $("#currentDay").text(todaysDate.format("dddd, MM/DD/YYYY, h:mm A"));
+}, 1000)
