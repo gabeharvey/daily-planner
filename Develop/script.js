@@ -1,5 +1,6 @@
 // variables declared
-
+let timeEl = dayjs().hour();
+let todaysDate = dayjs();
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
@@ -17,18 +18,16 @@ $(function () {
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
   
-  $(".time-div").each(function () {
 
-    var timeDiv = $(this).attr("id").val();
-
-    if (currentHour == timeDiv) {
+  //displays present, past, and future states with css qualities
+  $(".time-block").each(function () {
+    let planner = Number($(this).attr("id").split("-")(1));
+    if (timeEl === planner) {
       $(this).addClass("present");
-
-    } else if (currentHour < timeDiv) {
+    } else if (timeEl < planner) {
       $(this).removeClass("present");
       $(this).addClass("future");
-
-    } else if (currentHour > timeDiv) {
+    } else if (timeEl > planner) {
       $(this).removeClass("future");
       $(this).addClass("past");
     }
@@ -42,7 +41,6 @@ $(function () {
 });
 
 //Time function on top of page centered
-let todaysDate = dayjs();
 setInterval (function() {
   $("#currentDay").text(todaysDate.format("dddd, MM/DD/YYYY, h:mm A"));
 }, 1000)
