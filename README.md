@@ -14,4 +14,18 @@ The user can enter information into each hour time block in a standard work day 
 
 ## Credits
 
-https://stackoverflow.com/questions/72512032/how-can-i-compare-the-current-time-with-my-divs-id-900-in-javascript
+Starter Code provided by: https://github.com/coding-boot-camp/crispy-octo-meme.git
+
+Daily Work Planner done in collaboration with coding student Kalyn Sifuentes.
+
+Additional support and guidance provided by tutor Trinh Nguyen
+
+JavaScript Function Guidance: https://stackoverflow.com/questions/72512032/how-can-i-compare-the-current-time-with-my-divs-id-900-in-javascript
+
+## Screenshot
+
+![Alt text](Planner-Screenshot.png)
+
+## Link to Website
+
+## License
