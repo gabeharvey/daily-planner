@@ -28,4 +28,8 @@ JavaScript Function Guidance: https://stackoverflow.com/questions/72512032/how-c
 
 ## Link to Website
 
+https://gabeharvey.github.io/daily-planner/
+
 ## License
+
+N/A
