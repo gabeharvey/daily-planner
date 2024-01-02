@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-The user can enter information into each hour time block in a standard work day for planning purposes. The information can be saved in Local Storage for later reference for the user. The current time will be displayed at the top of the page and the corresponding time blocks will be differing colors. The current hour will display in red, previous hours in gray, and future hours in green.
+The user can enter information into each hour time block for planning purposes. This is for planning a standard workday schedule. The information can be saved in Local Storage for later reference by the user. The current time will be displayed at the top of the page and the corresponding time blocks will be differing colors. The current hour will display in red, previous hours in gray, and future hours in green.
 
 ## Credits
 
